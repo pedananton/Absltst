@@ -1,0 +1,17 @@
+.dragged {
+        opacity: 0.01;
+    }
+
+.under {
+    opacity: 0.5;
+}
+
+#drop {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#drag {
+    transform: translate(0, 630px);
+}
