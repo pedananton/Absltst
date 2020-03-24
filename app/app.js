@@ -1,6 +1,7 @@
 const element = document.getElementById('drag');
 let draggedElement = null;
 let dropedElement = document.getElementById('drop');
+let blinking;
 
 element.addEventListener('dragstart', dragstart_handler);
 element.addEventListener('dragend', dragend_handler);
